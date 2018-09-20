@@ -12,7 +12,7 @@ $(document).ready(function() {
   $('.teacher__list').slick({
     infinite: true,
     slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToScroll: 1,
     arrows: true,
     dots: false,
     autoplay: true,

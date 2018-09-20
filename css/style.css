@@ -46,6 +46,7 @@
 
 html {
   overflow-x: hidden;
+  min-width: 1255px;
 }
 
 .body {
@@ -73,7 +74,7 @@ html {
   margin-left: auto;
   margin-right: auto;
   max-width: 1255px;
-  width: 100%;
+  width: 1255px;
   padding-left: 15px;
   padding-right: 15px;
   -webkit-box-sizing: border-box;
@@ -328,7 +329,7 @@ html {
   margin-left: auto;
   margin-right: auto;
   max-width: 1255px;
-  width: 100%;
+  width: 1255px;
   padding-left: 15px;
   padding-right: 15px;
   -webkit-box-sizing: border-box;
@@ -382,7 +383,7 @@ html {
   margin-left: auto;
   margin-right: auto;
   max-width: 1255px;
-  width: 100%;
+  width: 1255px;
   padding-left: 15px;
   padding-right: 15px;
   -webkit-box-sizing: border-box;
@@ -615,7 +616,7 @@ html {
   margin-left: auto;
   margin-right: auto;
   max-width: 1255px;
-  width: 100%;
+  width: 1255px;
   padding-left: 15px;
   padding-right: 15px;
   -webkit-box-sizing: border-box;
@@ -699,7 +700,7 @@ html {
   margin-left: auto;
   margin-right: auto;
   max-width: 1255px;
-  width: 100%;
+  width: 1255px;
   padding-left: 15px;
   padding-right: 15px;
   -webkit-box-sizing: border-box;
@@ -860,7 +861,7 @@ html {
   margin-left: auto;
   margin-right: auto;
   max-width: 1255px;
-  width: 100%;
+  width: 1255px;
   padding-left: 15px;
   padding-right: 15px;
   -webkit-box-sizing: border-box;
@@ -1050,7 +1051,7 @@ html {
   margin-left: auto;
   margin-right: auto;
   max-width: 1255px;
-  width: 100%;
+  width: 1255px;
   padding-left: 15px;
   padding-right: 15px;
   -webkit-box-sizing: border-box;
@@ -1184,7 +1185,7 @@ html {
   margin-left: auto;
   margin-right: auto;
   max-width: 1255px;
-  width: 100%;
+  width: 1255px;
   padding-left: 15px;
   padding-right: 15px;
   -webkit-box-sizing: border-box;
@@ -1287,7 +1288,7 @@ html {
   margin-left: auto;
   margin-right: auto;
   max-width: 1255px;
-  width: 100%;
+  width: 1255px;
   padding-left: 15px;
   padding-right: 15px;
   -webkit-box-sizing: border-box;
