@@ -44,6 +44,10 @@
   }
 }
 
+html {
+  overflow-x: hidden;
+}
+
 .body {
   margin: 0;
   padding: 0;
@@ -219,11 +223,11 @@
   right: 5px;
   top: 10px;
   pointer-events: none;
-  background: url("../img/Icon.svg") top center no-repeat;
+  background: url("../img/ckeck.svg") top center no-repeat;
 }
 
-.form__item-wrapper--complete:after {
-  background: url("../img/ckeck.svg") top center no-repeat;
+.form__item-wrapper--error:after {
+  background: url("../img/Icon.svg") top center no-repeat;
 }
 
 .form__item-wrapper--name:before {
@@ -292,6 +296,7 @@
   -o-transition: opacity 0.3s ease-in-out;
   transition: opacity 0.3s ease-in-out;
   cursor: pointer;
+  outline: none;
 }
 
 .form__submit:hover {
@@ -848,6 +853,7 @@
   background-size: cover;
   background-color: #7ED321;
   height: 622px;
+  overflow-x: hidden;
 }
 
 .arrows__inner {

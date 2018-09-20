@@ -46,6 +46,8 @@
 
 $main-fonts : Arial, Helvetica, sans-serif;
   
+html
+  overflow-x: hidden
 .body
   margin: 0
   padding: 0
@@ -173,11 +175,11 @@ $main-fonts : Arial, Helvetica, sans-serif;
       right: 5px
       top: 10px
       pointer-events: none
-      background: url('../img/Icon.svg') top center no-repeat
+      background: url('../img/ckeck.svg') top center no-repeat
 
-    &--complete
+    &--error
       &:after
-         background: url('../img/ckeck.svg') top center no-repeat
+        background: url('../img/Icon.svg') top center no-repeat
 
 
     &--name
@@ -224,6 +226,7 @@ $main-fonts : Arial, Helvetica, sans-serif;
     text-transform: uppercase
     @include trans(opacity)
     cursor: pointer
+    outline: none
 
     &:hover
       opacity: .7
@@ -618,6 +621,7 @@ $main-fonts : Arial, Helvetica, sans-serif;
   background-size: cover
   background-color: #7ED321
   height: 622px
+  overflow-x: hidden
 
   &__inner
     @include wrapper
