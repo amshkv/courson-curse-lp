@@ -91,12 +91,11 @@ html
   &__form
     max-width: 440px
     position: relative
-    top: 62px
+    top: 119px
     z-index: 1
 
     &-inner
-      margin-top: 32px
-      padding-top: 54px
+      padding-top: 30px
 .main-title
   font-weight: bold;
   line-height: 40px;
@@ -192,6 +191,12 @@ html
     &--phone
       &:before
         background-image: url('../img/phone-icon.svg')
+    &--textarea
+      &:before
+        top: 12px
+        background-image: url('../img/text.svg')
+      &:after
+        display: none
   &__input
     width: 100%
     padding: 0 20px 0 48px
@@ -200,6 +205,24 @@ html
     box-sizing: border-box;
     border-radius: 7px;
     height: 29px
+    line-height: 27px
+    font-size: 13px
+    line-height: 15px
+    font-weight: bold
+    color: #000000
+    outline: none
+    @include placeholder
+      color: #898989;
+
+  &__textarea
+    width: 100%
+    padding: 4px 20px 4px 48px
+    resize: none
+    background: #FFFFFF;
+    border: 1px solid #979797;
+    box-sizing: border-box;
+    border-radius: 7px;
+    height: 45px
     line-height: 27px
     font-size: 13px
     line-height: 15px
@@ -223,7 +246,7 @@ html
     color: #292929;
     padding: 0
     border: none
-    margin-top: 20px
+    margin-top: 17px
     text-transform: uppercase
     @include trans(opacity)
     cursor: pointer

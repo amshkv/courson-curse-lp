@@ -53,7 +53,8 @@ $('.form').submit(function(event) {
   var $form = $(this),
     $firstName = $form.find('.js-name').val(),
     $phone = $form.find('.js-phone').val(),
-    $email = $form.find('.js-email').val();
+    $email = $form.find('.js-email').val(),
+    $text = $form.find('.js-text').val();
 
   if ($('.form__item-wrapper--error').length == 0) {
     alert(
@@ -63,6 +64,8 @@ $('.form').submit(function(event) {
         $phone +
         ', e-mail - ' +
         $email +
+        ', комментарий - ' +
+        $text +
         '. Всё!'
     );
   }
